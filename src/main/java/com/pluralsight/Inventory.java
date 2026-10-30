@@ -12,7 +12,7 @@ public class Inventory {
     //method to load the inventory.
     public void loadInventory() {
         try (BufferedReader reader =
-                     new BufferedReader(new FileReader("inventory.csv"))) {  //try catch block to read the file.
+                     new BufferedReader(new FileReader("src/main/resources/inventory.csv"))) {  //try catch block to read the file.
 
             String line;
 
