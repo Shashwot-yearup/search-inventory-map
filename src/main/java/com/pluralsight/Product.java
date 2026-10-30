@@ -1,7 +1,7 @@
 package com.pluralsight;
 
 public class Product {
-    private  int productId;
+    private int productId;
     private String productName;
     private double productPrice;
 
@@ -35,5 +35,10 @@ public class Product {
 
     public void setProductPrice(double productPrice) {
         this.productPrice = productPrice;
+    }
+
+    //to string method to sout
+    public String toString() {
+        return productId + " | " + productName + " | $" + productPrice;
     }
 }
