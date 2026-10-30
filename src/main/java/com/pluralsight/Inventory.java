@@ -27,8 +27,7 @@ public class Inventory {
 
                 Product products = new Product(productId, productName, productPrice);//creats a new product.
 
-                products.put(productId, productName,productPrice);
-
+                product.put(productId, products);
 
             }
 
